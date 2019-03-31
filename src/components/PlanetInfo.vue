@@ -5,6 +5,7 @@
       <li>{{planet.climate}}</li>
       <li>{{planet.population}}</li>
       <li>{{planet.terrain}}</li>
+      <li>{{planet.filmTitles.join(',')}}</li>
     </ul>
   </div>
 </template>
@@ -15,7 +16,7 @@ export default {
     planet: {
                type: Object,
                required: true,
-               default: {}
+               default: () => {},
             }
   }
 }

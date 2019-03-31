@@ -37,16 +37,23 @@ export default {
     },
     setCurrentPlanet(planet){
       const { name, climate, population, terrain, films } = planet;
-      
-      this.current_planet = {
-        name,
-        climate,
-        population,
-        terrain,
-        films
-      }
+
+      Promise.all(films.map(filmUrl => this.fetchMovieNames(filmUrl)))
+        .then(filmTitles => (
+            this.current_planet = {
+              name,
+              climate,
+              population,
+              terrain,
+              filmTitles
+            }
+        ));
     },
-    
+    fetchMovieNames(movieUrl){
+      return fetch(movieUrl)
+        .then(response => response.json())
+        .then(film => film.title);
+    }
   },
   created(){
     this.fetchNewPlanet();
