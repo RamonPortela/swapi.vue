@@ -71,11 +71,7 @@ export default {
   computed: {
     backgroundStyle() {
       return {
-        background: 'rgb(255,255,255)',
-        background: `-moz-radial-gradient(at 50% 20%, ${this.gradientFirstColor} 0%, ${this.gradientLastColor} 100%)`,
-        background: `-webkit-radial-gradient(at 50% 20%, ${this.gradientFirstColor} 0%, ${this.gradientLastColor} 100%)`,
         background: `radial-gradient(at 50% 20%, ${this.gradientFirstColor} 0%, ${this.gradientLastColor} 100%)`,
-        filter: `progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#2a636e",GradientType=1)`,
       };
     }
   },
@@ -105,9 +101,35 @@ export default {
     align-items: center;
     justify-content: center;
     font-family: 'Raleway', sans-serif;
+    transition: background 1s;
   }
 
   .logo{
-    margin-bottom: 5rem;
+    height: 13rem;
+    margin-bottom: 3rem;
+  }
+
+  @media only screen and (max-width: 925px) {
+    html{
+      font-size: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    html{
+      font-size: 55%;
+    }
+  }
+
+  @media only screen and (max-width: 785px) {
+    html{
+      font-size: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    html{
+      font-size: 45%;
+    }
   }
 </style>

@@ -82,7 +82,7 @@ export default {
     width: 70vw;
     max-width: 80rem;
     height: 60vh;
-    padding: 3rem 0;
+    padding: 3rem;
     position: relative;
   }
 
@@ -112,11 +112,11 @@ export default {
     color: rgb(215, 215, 215);
     font-size: 5rem;
     line-height: 4.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .planet-card__details-label{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   .planet-card__details-film-list{
@@ -126,10 +126,14 @@ export default {
   .planet-card__details-values{
     color: #fff;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-left: 2rem;
     text-transform: capitalize;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .planet-card__details-values:last-child{
+    margin-bottom: 0;
   }
 
   .planet-card__details-film-list-item{
@@ -140,16 +144,30 @@ export default {
     background: white;
     border: none;
     cursor: pointer;
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
     border-radius: 50%;
     position: absolute;
     top: 100%;
     left: 100%;
     transform: translate(-50%, -50%);
+    transition: left 1s;
   }
 
   .button__icon{
     width: 50%;
+  }
+
+  @media only screen and (max-width: 580px) {
+    .planet-card__img-container{
+      display: none;
+    }
+
+    .planet-card__details-container{
+      width: 100%;
+    }
+    .button{
+      left:50%;
+    }
   }
 </style>

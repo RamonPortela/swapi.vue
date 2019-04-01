@@ -60,9 +60,9 @@ export default {
         grandientEndColor: '#FFA304',
     },
     polluted: {
-        fontColor: '#BECFFF',
-        gradientFirstColor: '#fff',
-        grandientEndColor: '#BECFFF',
+        fontColor: '#d7d7d7',
+        gradientFirstColor: '#d4dcdb',
+        grandientEndColor: '#535f58',
     },
     'artificial temperate':{
         fontColor: '#88C057',
