@@ -23,7 +23,12 @@
       </ul>
       <p v-else class="planet-card__details-values">-</p>
     </div>
-
+    <div v-else class="planet-card--landing">
+      <h2 class="planet-card__title">Which Planet?</h2>
+      <p class="planet-card__description">
+        Click the button bellow to get informations about a random planet of the StarWars universe!
+      </p>
+    </div>
     <button class="button" @click="fetchNewPlanet" :disabled="loading">
       <img class="button__icon" src="../assets/shuffle.svg"/>
     </button>
@@ -84,6 +89,14 @@ export default {
     height: 60vh;
     padding: 3rem;
     position: relative;
+  }
+
+    .planet-card--landing{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
   }
 
   .planet-card__img-container{
@@ -158,6 +171,26 @@ export default {
     width: 50%;
   }
 
+  .planet-card__title-container{
+    margin-bottom: 3rem;
+  }
+
+  .planet-card__title{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 5rem;
+    line-height: 4.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .planet-card__description{
+    color: #fff;
+    font-size: 2rem;
+    justify-self: center;
+    text-align: center;
+  }
+
   @media only screen and (max-width: 580px) {
     .planet-card__img-container{
       display: none;
@@ -166,6 +199,7 @@ export default {
     .planet-card__details-container{
       width: 100%;
     }
+
     .button{
       left:50%;
     }

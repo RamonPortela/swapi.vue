@@ -17,8 +17,8 @@ export default {
       current_planet_id: 0,
       current_planet: {},
       loading: false,
-      gradientFirstColor: '#FFFFFF',
-      gradientLastColor: '#B9B9B9',
+      gradientFirstColor: '#b7bdbd',
+      gradientLastColor: '#3e4244',
     }
   },
   components: {
@@ -74,9 +74,6 @@ export default {
         background: `radial-gradient(at 50% 20%, ${this.gradientFirstColor} 0%, ${this.gradientLastColor} 100%)`,
       };
     }
-  },
-  created(){
-    this.fetchNewPlanet();
   }
 }
 </script>

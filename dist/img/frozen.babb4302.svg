@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="69.499" height="88.562" viewBox="0 0 69.499 88.562">
+  <g id="congelado" transform="translate(704 -1192.56)">
+    <g id="uranus" transform="translate(-704 1192.56)">
+      <circle id="Elipse_26" data-name="Elipse 26" cx="29.063" cy="29.063" r="29.063" transform="translate(6.318 7.582)" fill="#9fbdc2"/>
+      <path id="Caminho_69" data-name="Caminho 69" d="M8.843,37.585l2.188,15.591,1.916-6.387,4.045,15.329,1.49-11.284L22.528,58.5l2.981-3.619,4.045,15.329L34.877,56.8l2.768,8.09,2.981-8.09,4.684,22.568,5.323-26.187L53.4,62.118l2.342-13.2L58.3,54.879l4.3-16.294S55.966,51.221,36.537,52.327,8.843,37.585,8.843,37.585Z" transform="translate(-0.525 9.199)" fill="#9fcacc"/>
+      <circle id="Elipse_27" data-name="Elipse 27" cx="23.051" cy="23.051" r="23.051" transform="translate(6.968 11.374)" fill="#9fcacc"/>
+      <circle id="Elipse_28" data-name="Elipse 28" cx="18.624" cy="18.624" r="18.624" transform="translate(7.622 13.909)" fill="#add7db"/>
+      <path id="Caminho_68" data-name="Caminho 68" d="M56.16,52.879H52.369l-1.264-1.264V47.825a1.264,1.264,0,1,0-2.527,0v3.791l-1.264,1.264H43.524a1.264,1.264,0,0,0,0,2.527h3.791l1.264,1.264v3.791a1.264,1.264,0,0,0,2.527,0V56.67l1.264-1.264H56.16a1.264,1.264,0,0,0,0-2.527Z" transform="translate(8.284 11.565)" fill="#fff"/>
+      <circle id="Elipse_29" data-name="Elipse 29" cx="1.264" cy="1.264" r="1.264" transform="translate(2.527 3.791)" fill="#fff"/>
+      <circle id="Elipse_30" data-name="Elipse 30" cx="1.264" cy="1.264" r="1.264" transform="translate(6.318 68.235)" fill="#fff"/>
+      <circle id="Elipse_31" data-name="Elipse 31" cx="1.264" cy="1.264" r="1.264" transform="translate(0 59.39)" fill="#ecf0f1"/>
+      <circle id="Elipse_32" data-name="Elipse 32" cx="1.264" cy="1.264" r="1.264" transform="translate(13.9 0)" fill="#fff"/>
+      <circle id="Elipse_33" data-name="Elipse 33" cx="1.264" cy="1.264" r="1.264" transform="translate(64.444 3.791)" fill="#fff"/>
+      <circle id="Elipse_34" data-name="Elipse 34" cx="1.264" cy="1.264" r="1.264" transform="translate(66.971 64.447)" fill="#fff"/>
+      <circle id="Elipse_35" data-name="Elipse 35" cx="1.264" cy="1.264" r="1.264" transform="translate(52.44 48.491)" fill="#fff"/>
+      <circle id="Elipse_36" data-name="Elipse 36" cx="1.264" cy="1.264" r="1.264" transform="translate(13.9 31.274)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
