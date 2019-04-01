@@ -1,5 +1,8 @@
 # b2w-desafio
 
+## Live demo
+[demo](https://ramonportela.github.io/swapi.vue/)
+
 ## Project setup
 ```
 npm install
